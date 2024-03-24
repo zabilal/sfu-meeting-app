@@ -25,7 +25,7 @@ Open Source Conduct Committee at ossconduct.mirotalk@gmail.com.
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of gender
+our community a harassment- experience for everyone, regardless of gender
 identity and expression, sexual orientation, disability, physical appearance,
 body size, ethnicity, nationality, race, age, religion, level of experience, education,
 socioeconomic status, or other similar personal characteristics.

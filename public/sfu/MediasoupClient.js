@@ -9414,7 +9414,7 @@
                     }
                     close() {
                         logger.debug('close()');
-                        // Free/dispose native MediaStream but DO NOT free/dispose native
+                        // /dispose native MediaStream but DO NOT /dispose native
                         // MediaStreamTracks (that is parent's business).
                         // @ts-ignore (proprietary API in react-native-webrtc).
                         this._sendStream.release(/* releaseTracks */ false);
@@ -10038,7 +10038,7 @@
                             return;
                         }
                         this._closed = true;
-                        // Free/dispose native MediaStream but DO NOT free/dispose native
+                        // /dispose native MediaStream but DO NOT /dispose native
                         // MediaStreamTracks (that is parent's business).
                         // @ts-ignore (proprietary API in react-native-webrtc).
                         this._sendStream.release(/* releaseTracks */ false);
@@ -16989,7 +16989,7 @@
                                 // Ubuntu/Debian/SUSE/Gentoo/Arch/Slackware/Fedora/Mandriva/CentOS/PCLinuxOS/RedHat/Zenwalk/Linpus/Raspbian/Plan9/Minix/RISCOS/Contiki/Deepin/Manjaro/elementary/Sabayon/Linspire
                                 /(hurd|linux) ?([\w\.]*)/i, // Hurd/Linux
                                 /(gnu) ?([\w\.]*)/i, // GNU
-                                /\b([-frentopcghs]{0,5}bsd|dragonfly)[\/ ]?(?!amd|[ix346]{1,2}86)([\w\.]*)/i, // FreeBSD/NetBSD/OpenBSD/PC-BSD/GhostBSD/DragonFly
+                                /\b([-frentopcghs]{0,5}bsd|dragonfly)[\/ ]?(?!amd|[ix346]{1,2}86)([\w\.]*)/i, // BSD/NetBSD/OpenBSD/PC-BSD/GhostBSD/DragonFly
                                 /(haiku) (\w+)/i, // Haiku
                             ],
                             [NAME, VERSION],
@@ -17186,7 +17186,7 @@
             function (require, module, exports) {
                 // Copyright Joyent, Inc. and other Node contributors.
                 //
-                // Permission is hereby granted, free of charge, to any person obtaining a
+                // Permission is hereby granted,  of charge, to any person obtaining a
                 // copy of this software and associated documentation files (the
                 // "Software"), to deal in the Software without restriction, including
                 // without limitation the rights to use, copy, modify, merge, publish,
