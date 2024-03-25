@@ -371,7 +371,7 @@ function refreshMainButtonsToolTipPlacement() {
         setTippy('transcriptionButton', 'Toggle transcription', placement);
         setTippy('whiteboardButton', 'Toggle the whiteboard', placement);
         setTippy('settingsButton', 'Toggle the settings', placement);
-        setTippy('aboutButton', 'About this project', placement);
+        // setTippy('aboutButton', 'About this project', placement);
         setTippy('exitButton', 'Leave room', placement);
     }
 }
@@ -1251,7 +1251,7 @@ function roomIsReady() {
         show(roomRecordingOptions);
     }
     if (rc.recSyncServerRecording) show(roomRecordingServer);
-    BUTTONS.main.aboutButton && show(aboutButton);
+    // BUTTONS.main.aboutButton && show(aboutButton);
     if (!DetectRTC.isMobileDevice) show(pinUnpinGridDiv);
     if (!isSpeechSynthesisSupported) hide(speechMsgDiv);
     handleButtons();
@@ -1673,9 +1673,9 @@ function handleButtons() {
     unlockRoomButton.onclick = () => {
         rc.roomAction('unlock');
     };
-    aboutButton.onclick = () => {
-        showAbout();
-    };
+    // aboutButton.onclick = () => {
+    //     showAbout();
+    // };
 }
 
 // ####################################################

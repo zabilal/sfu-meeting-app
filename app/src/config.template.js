@@ -157,11 +157,11 @@ module.exports = {
                 swapCameraButton: true,
                 chatButton: true,
                 raiseHandButton: true,
-                transcriptionButton: true,
+                // transcriptionButton: true,
                 whiteboardButton: true,
                 emojiRoomButton: true,
                 settingsButton: true,
-                aboutButton: true, // Please keep me always visible, thank you!
+                // aboutButton: true, // Please keep me always visible, thank you!
                 exitButton: true,
             },
             settings: {

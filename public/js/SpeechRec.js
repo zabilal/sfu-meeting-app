@@ -285,10 +285,10 @@ function execVoiceCommands(transcript) {
             printCommand(commands.roomUnlock);
             unlockRoomButton.click();
             break;
-        case commands.about:
-            printCommand(commands.about);
-            aboutButton.click();
-            break;
+        // case commands.about:
+        //     printCommand(commands.about);
+        //     // aboutButton.click();
+        //     break;
         case commands.email:
             printCommand(commands.email);
             openURL(browser.email, true);
