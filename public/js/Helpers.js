@@ -76,8 +76,3 @@ class MixedAudioRecorder {
     }
 }
 
-// Usage
-// const audioRecorder = new MixedAudioRecorder();
-// To start recording, call audioRecorder.getMixedAudioStream(audioStreams);
-// To stop recording, call audioRecorder.stopMixedAudioStream();
-// Credits: https://github.com/muaz-khan/MultiStreamsMixer

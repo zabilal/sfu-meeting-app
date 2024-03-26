@@ -75,7 +75,6 @@ const browser = {
     linkedin: 'https://www.linkedin.com',
     twitter: 'https://www.twitter.com',
     tiktok: 'https://www.tiktok.com',
-    github: 'https://github.com/miroslavpejic85',
 };
 
 if (speechRecognition) {

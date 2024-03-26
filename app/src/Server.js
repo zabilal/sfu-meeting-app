@@ -34,14 +34,7 @@ dependencies: {
 
 /**
  * ZAKARY - Server component
- *
- * @link    GitHub: https://github.com/miroslavpejic85/mirotalksfu
- * @link    Official Live demo: https://sfu.mirotalk.com
- * @license For open source use: AGPLv3
- * @license For commercial or closed source, contact us at license.mirotalk@gmail.com or purchase directly via CodeCanyon
- * @license CodeCanyon: https://codecanyon.net/item/mirotalk-sfu-webrtc-realtime-video-conferences/40769970
- * @author  Miroslav Pejic - miroslav.pejic.85@gmail.com
- * @version 1.4.0
+ * @author  Zakariya Raji - zakariyyaraji@gmail.com
  *
  */
 
@@ -146,12 +139,6 @@ if (sentryEnabled) {
     */
 }
 
-// Stats
-const defaultStats = {
-    enabled: true,
-    src: 'https://stats.mirotalk.com/script.js',
-    id: '41d26670-f275-45bb-af82-3ce91fe57756',
-};
 
 // OpenAI/ChatGPT
 let chatGPT;
@@ -415,13 +402,6 @@ function startServer() {
     // mirotalk about
     app.get(['/about'], (req, res) => {
         res.sendFile(views.about);
-    });
-
-    // Get stats endpoint
-    app.get(['/stats'], (req, res) => {
-        const stats = config.stats ? config.stats : defaultStats;
-        // log.debug('Send stats', stats);
-        res.send(stats);
     });
 
     // handle login if user_auth enabled
