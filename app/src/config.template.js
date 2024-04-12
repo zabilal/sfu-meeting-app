@@ -111,27 +111,27 @@ module.exports = {
         */
         brand: {
             app: {
-                name: 'ZAKARY',
-                title: 'ZAKARY<br /> browser based Real-time video calls.<br />Simple, Secure, Fast.',
+                name: 'DSS',
+                title: 'DSS<br /> Browser based Meetings.<br />Simple, Secure, Fast.',
                 description: '',
             },
             site: {
-                title: 'ZAKARY,  Video Calls, Messaging and Screen Sharing',
-                icon: '../images/logo.svg',
-                appleTouchIcon: '../images/logo.svg',
+                title: 'DSS Metting Platform',
+                icon: '../images/dss-logo.png',
+                appleTouchIcon: '../images/dss-logo,png',
             },
             meta: {
                 description:
-                    'ZAKARY powered by WebRTC and mediasoup, Real-time Simple Secure Fast video calls, messaging and screen sharing capabilities in the browser.',
+                    'DSS powered by WebRTC and mediasoup, Real-time Simple Secure Fast video calls, messaging and screen sharing capabilities in the browser.',
                 keywords:
                     'webrtc, miro, mediasoup, mediasoup-client, self hosted, voip, sip, real-time communications, chat, messaging, meet, webrtc stun, webrtc turn, webrtc p2p, webrtc sfu, video meeting, video chat, video conference, multi video chat, multi video conference, peer to peer, p2p, sfu, rtc, alternative to, zoom, microsoft teams, google meet, jitsi, meeting',
             },
             og: {
                 type: 'app-webrtc',
-                siteName: 'ZAKARY',
+                siteName: 'DSS',
                 title: 'Click the link to make a call.',
-                description: 'ZAKARY calling provides real-time video calls, messaging and screen sharing.',
-                image: 'https://sfu.mirotalk.com/images/mirotalksfu.png',
+                description: 'DSS calling provides real-time video calls, messaging and screen sharing.',
+                image: '',
             },
             html: {
                 features: true,
@@ -325,9 +325,7 @@ module.exports = {
         enabled: false,
         url: '',
     },
-    stats: {
-        
-    },
+    stats: {},
     mediasoup: {
         // Worker settings
         numWorkers: require('os').cpus().length,

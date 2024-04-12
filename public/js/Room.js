@@ -161,7 +161,8 @@ const initSpeakerSelect = getId('initSpeakerSelect');
 // DYNAMIC SETTINGS
 // ####################################################
 
-let swalBackground = 'radial-gradient(#393939, #000000)'; //'rgba(0, 0, 0, 0.7)';
+// let swalBackground = 'radial-gradient(#09a51e, #103501)'; 
+let swalBackground = '#103501'; 
 
 let rc = null;
 let producer = null;

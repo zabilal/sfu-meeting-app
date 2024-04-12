@@ -33,7 +33,7 @@ dependencies: {
 */
 
 /**
- * ZAKARY - Server component
+ * DSS - Server component
  * @author  Zakariya Raji - zakariyyaraji@gmail.com
  *
  */
@@ -138,7 +138,6 @@ if (sentryEnabled) {
     log.debug('test-debug');
     */
 }
-
 
 // OpenAI/ChatGPT
 let chatGPT;

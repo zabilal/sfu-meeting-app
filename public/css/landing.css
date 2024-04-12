@@ -197,9 +197,9 @@ html {
     box-sizing: inherit;
 }
 body {
-    background: #1d2026;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+    background: #033301;
+    /* -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; */
 }
 hr {
     border: 0;
@@ -511,7 +511,7 @@ code,
 kbd,
 tt,
 var {
-    background: #1d2026;
+    background: #024102;
 }
 pre {
     font-size: 16px;
@@ -1074,8 +1074,8 @@ label {
     height: 32px;
 }
 .button-primary {
-    background: #097dea;
-    background: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
+    background: #033301;/*#097dea;*/
+    background: linear-gradient(65deg, #033301 0, #0ffd7a 100%);
     border-radius: 6px;
 }
 .button-primary:hover {
@@ -1535,7 +1535,7 @@ label {
 }
 .cta-inner {
     position: relative;
-    background: #15181d;
+    background: #1b7718;/* #15181d; */
     overflow: hidden;
 }
 .cta-inner::before {
@@ -1572,7 +1572,7 @@ label {
     background: #242830;
 }
 .body-wrap {
-    background: #1d2026;
+    background: #033301; /*#1d2026; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -1683,7 +1683,7 @@ main {
 
 /*Pulse Button*/
 .pulse {
-    box-shadow: 0 0 0 rgba(120, 120, 120, 0.4);
+    box-shadow: 0 0 0 rgba(19, 63, 2, 0.4);
     animation: pulse 4s infinite;
 }
 .pulse:hover {
@@ -1692,27 +1692,27 @@ main {
 
 @-webkit-keyframes pulse {
     0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(120, 120, 120, 0.4);
+        -webkit-box-shadow: 0 0 0 0 rgba(19, 63, 2, 0.4);
     }
     70% {
-        -webkit-box-shadow: 0 0 0 15px rgba(120, 120, 120, 0);
+        -webkit-box-shadow: 0 0 0 15px rgba(19, 63, 2, 0);
     }
     100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(120, 120, 120, 0);
+        -webkit-box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
     }
 }
 @keyframes pulse {
     0% {
-        -moz-box-shadow: 0 0 0 0 rgba(120, 120, 120, 0.4);
-        box-shadow: 0 0 0 0 rgba(120, 120, 120, 0.4);
+        -moz-box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
+        box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
     }
     70% {
-        -moz-box-shadow: 0 0 0 10px rgba(120, 120, 120, 0);
-        box-shadow: 0 0 0 15px rgba(120, 120, 120, 0);
+        -moz-box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
+        box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
     }
     100% {
-        -moz-box-shadow: 0 0 0 0 rgba(120, 120, 120, 0);
-        box-shadow: 0 0 0 0 rgba(120, 120, 120, 0);
+        -moz-box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
+        box-shadow: 0 0 0 0 rgba(19, 63, 2, 0);
     }
 }
 /*Pulse Button*/

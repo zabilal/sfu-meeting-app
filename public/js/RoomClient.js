@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * ZAKARY - Client component
+ * DSS - Client component
  *
  
  *
