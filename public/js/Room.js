@@ -3693,18 +3693,19 @@ function setTheme() {
     const theme = selectTheme.value;
     switch (theme) {
         case 'dark':
-            swalBackground = 'radial-gradient(#393939, #000000)';
-            document.documentElement.style.setProperty('--body-bg', 'radial-gradient(#393939, #000000)');
-            document.documentElement.style.setProperty('--transcription-bg', 'radial-gradient(#393939, #000000)');
-            document.documentElement.style.setProperty('--msger-bg', 'radial-gradient(#393939, #000000)');
+            // swalBackground = 'radial-gradient(#393939, #000000)';
+            swalBackground = 'radial-gradient(#09a51e, #103501)';
+            document.documentElement.style.setProperty('--body-bg', 'radial-gradient(#09a51e, #103501)');
+            document.documentElement.style.setProperty('--transcription-bg', 'radial-gradient(#09a51e, #103501)');
+            document.documentElement.style.setProperty('--msger-bg', 'radial-gradient(#09a51e, #103501)');
             document.documentElement.style.setProperty('--left-msg-bg', '#056162');
             document.documentElement.style.setProperty('--right-msg-bg', '#252d31');
             document.documentElement.style.setProperty('--select-bg', '#2c2c2c');
             document.documentElement.style.setProperty('--tab-btn-active', '#393939');
-            document.documentElement.style.setProperty('--settings-bg', 'radial-gradient(#393939, #000000)');
-            document.documentElement.style.setProperty('--wb-bg', 'radial-gradient(#393939, #000000)');
+            document.documentElement.style.setProperty('--settings-bg', 'radial-gradient(#09a51e, #103501)');
+            document.documentElement.style.setProperty('--wb-bg', 'radial-gradient(#09a51e, #103501)');
             document.documentElement.style.setProperty('--btns-bg-color', 'rgba(0, 0, 0, 0.7)');
-            document.body.style.background = 'radial-gradient(#393939, #000000)';
+            document.body.style.background = 'radial-gradient(#09a51e, #103501)';
             selectTheme.selectedIndex = 0;
             break;
         case 'grey':
