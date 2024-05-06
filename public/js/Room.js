@@ -162,7 +162,7 @@ const initSpeakerSelect = getId('initSpeakerSelect');
 // ####################################################
 
 // let swalBackground = 'radial-gradient(#09a51e, #103501)'; 
-let swalBackground = '#103501'; 
+let swalBackground = '#757f76'; //'#103501'; 
 
 let rc = null;
 let producer = null;
@@ -3694,7 +3694,8 @@ function setTheme() {
     switch (theme) {
         case 'dark':
             // swalBackground = 'radial-gradient(#393939, #000000)';
-            swalBackground = 'radial-gradient(#09a51e, #103501)';
+            // swalBackground = 'radial-gradient(#09a51e, #103501)';
+            swalBackground = '#394629';
             document.documentElement.style.setProperty('--body-bg', 'radial-gradient(#09a51e, #103501)');
             document.documentElement.style.setProperty('--transcription-bg', 'radial-gradient(#09a51e, #103501)');
             document.documentElement.style.setProperty('--msger-bg', 'radial-gradient(#09a51e, #103501)');
